@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -35,8 +36,8 @@
         </div>
     </header>
     <main>
-        <section class="portfolio">
-            <div class="container">
+        <section class="portfolio section">
+            <div class="container portfolio-container">
                 <h1 class=visually-hidden>Портфоліо</h1>
                 <div class="button-container">
                     <ul class="button-list list">
@@ -134,21 +135,25 @@
         </section>
     </main>
     <footer class='footer'>
-        <a class="logo link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
-        <address>
+        <div class="container">
+            <a class="logo link" href="./index.html">Web<span class="footer-logo">Studio</span></a>
+          <address class="address">
             <ul class="list">
-                <li class="address-list-item">
-                    <a class="footer-address link" href="https://goo.gl/maps/AHgMUpBDEuagTDZh7" target="_blank"
-                        rel="noopener noreferrer nofolbow">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-                <li class="address-list-item">
-                    <a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="address-list-item">
-                    <a class="address-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
+              <li class="address-list-item">
+                <a class="footer-address link"
+                  href="https://goo.gl/maps/AHgMUpBDEuagTDZh7"
+                  target="_blank"
+                  rel="noopener noreferrer nofolbow"
+                  >м. Київ, пр-т Лесі Українки, 26</a>
+              </li>
+              <li class="address-list-item">
+                <a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="address-list-item">
+                <a class="address-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </address>
-    </footer>
-</body>
-</html>
+          </address>
+        </div>
+      </footer>
+    </body>
+  </html>
+  
