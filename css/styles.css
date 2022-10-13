@@ -71,8 +71,6 @@ buton {
 }
 /* logo */
 .header {
-  padding-top: 32px;
-  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
 }
 .logo {
@@ -95,6 +93,8 @@ buton {
 .header-container {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-address {
   margin-left: auto;
@@ -203,13 +203,16 @@ buton {
   display: flex;
   gap: var(--card-set-gap);
 }
+.hidden-item {
+  width: 270px;
+}
 .caption {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 .content {
   font-weight: 400;
@@ -241,7 +244,6 @@ buton {
 }
 .team {
   background-color: var(--background-grup);
-  padding-top: 0;
 }
 .section-list {
   display: flex;
@@ -338,14 +340,12 @@ buton {
 }
 .button-list {
   display: flex;
-  min-width: 575px;
   margin: 0 auto;
   justify-content: center;
   gap: 8px;
+  margin-bottom: 50px;
 }
-.button-container {
-  padding-bottom: 34px;
-}
+
 /* Галерея */
 .portfolio-list {
   display: flex;
